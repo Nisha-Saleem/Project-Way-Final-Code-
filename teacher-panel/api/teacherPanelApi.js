@@ -7,8 +7,8 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  maxBodyLength: 20 * 1024 * 1024,
-  maxContentLength: 20 * 1024 * 1024,
+  maxBodyLength: 5 * 1024 * 1024,
+  maxContentLength: 5 * 1024 * 1024,
 });
 
 // Teacher Dashboard API
